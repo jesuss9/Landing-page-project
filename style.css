@@ -1,0 +1,166 @@
+body {
+    display:flex;
+    flex-direction: column;
+    margin:0;
+}
+
+.header {
+    background-color: #1f2937;
+    display:flex;
+    flex-direction: column;
+    padding-left:150px;
+    padding-right:150px;
+    padding-top:10px;
+    padding-bottom:40px;
+    margin-top:0;
+}
+
+.title {
+    font-size: 24px;
+    color:#f9faf8;
+    margin-bottom:60px;
+}
+
+ul {
+    display:flex;
+    list-style: none;
+    margin:0;
+    padding:0;
+    gap:20px;
+}
+
+.top-header {
+  display:flex;
+  justify-content: space-between;
+}
+
+.title-body-header {
+    width:300px;
+    font-size: 48px;
+    font-weight:900;
+    color:#f9faf8;
+}
+
+.text-header {
+    width:318px;
+    margin-bottom:10px;
+}
+
+.top-links,
+.text-header {
+    font size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up {
+    border: 1px black;
+    font-size:18px;
+    background-color:#3882f6;
+    border-radius:8px;;
+    margin-top:;
+    color:#e5e7eb;
+    padding: 4px 16px;
+}
+
+.body-info {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.info-title {
+    font-size:36px;
+    font-weight:900;
+    margin-top:50px;
+    margin-bottom:12px;
+}
+
+.info-items {
+    display:flex;
+    gap:30px;
+    width:600px;
+    text-align: center;
+    justify-content: center;
+    margin-bottom:100px;
+}
+
+.image {
+    border: 3px solid #3882f6;
+    width: 150px;
+    height: 150px;
+    border-radius:8px;
+    margin-bottom:12px;
+}
+
+.quote-body {
+    display:flex;
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    padding:70px;
+    align-items: center;
+}
+
+.quote {
+    font-size:28px;
+    width:800px;
+    color:#1f2937;
+    font-weight: 100;
+}
+
+.quoter {
+    font-weight:900;
+    margin-left:auto;
+    margin-right:335px;
+}
+
+.around-sign-up {
+    display:flex;
+    justify-content: center;
+}
+   
+
+.sign-up-box {
+    display:flex;
+    flex-direction: row;
+    margin-top:100px;
+    margin-bottom: 100px;
+    background-color:#3882f6;
+    border-radius:8px;
+    padding: 30px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    color:white
+}
+
+.title-sign {
+    font-size:26px;
+    font-weight:900;
+}
+
+.text-sign {
+    font-weight:lighter;
+}
+
+.sign-up-text {
+    margin-left: 120px;
+    border:1px solid white;
+    background-color: #3882f6 ;
+    color:white;
+    border-radius:8px;
+    width:100px;
+    height: 30px;
+    margin-top:auto;
+}
+
+.footer {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#1f2937;
+    color:#f9faf8;
+    padding:30px;
+}
